@@ -96,14 +96,67 @@ body{
 }
 
 .contacts{
-    background-color: grey;
+    background-color: rgb(86, 86, 109);
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin:190px;
+    justify-content: center;
+    margin:90px;
+    border-radius: 20px;
 }
-.contactForm {
-    display: block;
-    width: 500px;
-    float: left;
+
+.contactForm, .contactInfo{
+    margin: 20px;
+    height: auto;
+    width: 45%;
+}
+.contactForm, .contactInfo h2{
+    color: rgb(223, 157, 35);
+}
+
+.contactInfo p{
+    font-size: 20px;
+    margin-top: 35px;
+    color: white;
+    font-weight: bold;
+}
+.textColor{
+    color: rgb(252, 252, 140);
+    font-weight: bold;
+}
+.form-group label{
+    color: white;
+    font-size: 15px;
+}
+.form-group input{
+    background-color: rgb(22, 22, 43);
+    border: 1px solid white;
+    color: white;
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.form-group textarea{
+    background-color: rgb(22, 22, 43);
+    border: 1px solid white;
+    resize: none;    
+    margin-top: 5px;
+    border-radius: 10px;
+    width: 95%;
+    height: 300px;
+}
+.form-group button{
+    background-color: rgb(22, 22, 43);
+    font-size: 15px;
+    cursor: pointer;
+    padding:10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.form-group button:hover{
+    background-color:rgb(44, 44, 95);  ;
 }
