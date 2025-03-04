@@ -1,90 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <a href=""><img src="logo.png" alt="logo"></a>
-            <ul>
-                <li><a href="">Overview</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="container">
-            <div class="cover">
-                <img src="bgmain.jpg" alt="background">
-            </div>
-            <h1 style="text-align: center; color: white;">Overview</h1>
-            <div class="overview">
-                    <div class="about">
-                        <h1>About</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, veritatis est expedita suscipit iste ea praesentium nemo adipisci, sapiente tenetur velit. Consequuntur nulla aperiam excepturi repellendus necessitatibus, quisquam molestiae optio?</p>
-                    </div>
-                    <div class="features">
-                        <h1>Features</h1>
-                        <ul>
-                            <li>Swimming Pool</li>
-                            <li>PlayGround</li>
-                            <li>Sunken Garden</li>
-                        </ul>
-                    </div>
-                    <div class="amenities">
-                        <h1>Amenities</h1>
-                        <ul>
-                            <li>Swimming Pool</li>
-                            <li>PlayGround</li>
-                            <li>Sunken Garden</li>
-                        </ul>
-                    </div>
-                </div>  
-            </div>
-            <section class="imgGallery">
-                <h1>Gallery</h1>
-                <div class="gallery">
-                  <img src="img1.jpg" alt="">
-                  <img src="img2.webp" alt="">
-                  <img src="img3.png" alt="">
-                  <img src="img1.jpg" alt="">
-                  <img src="img2.webp" alt="">
-                  <img src="img3.png" alt="">
-                  <img src="img1.jpg" alt="">
-                  <img src="img2.webp" alt="">
-                  <img src="img3.png" alt="">
-                </div>
-            </section>
-            <div class="contacts">
-                <div class="contactForm">
-                    <h2>Contact Us</h2>
-                    <form action="">
-                        <div class="form-group">
-                            <label for="">Email</label><br>
-                            <input type="text"><br>
-                            <label for="">Subject</label><br>
-                            <input type="text"><br>
-                            <label for="">Message</label><br>
-                            <textarea name="" id=""></textarea><br>
-                            <button>Submit</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="contactInfo">
-                    <h2>Contact Information</h2>
-                        <p><span class="textColor">Email:</span> info@smdc.ph</p>
-                        <p><span class="textColor">Mobile No.:</span> +63 222 222 2222</p>
-                        <p><span class="textColor">Viber:</span> +63 222 222 2222</p>
-                        <p><span class="textColor">Whatsapp:</span> +63 222 222 2222</p>
-                        <p><span class="textColor">Facebook:</span> Homes by SMDC</p>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="nav-logo">
+          <img src="img/logo.png" alt="" />
         </div>
-    </main>
-</body>
+        <ul class="nav-links">
+          <li class="links"><a href="">Overview</a></li>
+          <li class="links"><a href="">Gallery</a></li>
+          <li class="links"><a href="">Contact Us</a></li>
+        </ul>
+        <div class="sidebar">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+    </nav>
+    <section class="img-container">
+      <img src="img/bgmain.jpg" alt="" />
+    </section>
+    <section class="container">
+      <h2 class="header">Overview</h2>
+      <div class="overview-container">
+        <div class="overview-content">
+          <h3>About</h3>
+          <p class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+            dolorum alias sequi accusantium sapiente aspernatur amet delectus
+            expedita dolores aliquam magni illum, ratione excepturi quo? Sed
+            adipisci officia voluptatem fugiat. Lorem, ipsum dolor sit amet
+            consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="overview-content">
+          <h3>Features</h3>
+          <ul>
+            <li><a href="">Swimming Pool & Kiddie Pool</a></li>
+            <li><a href="">Walk of Fame</a></li>
+            <li><a href="">Sunken Garden</a></li>
+          </ul>
+        </div>
+        <div class="overview-content">
+          <h3>Amenities</h3>
+          <ul>
+            <li><a href="">Playground</a></li>
+            <li><a href="">Outdoor Fitness Area</a></li>
+            <li><a href="">Function Rooms</a></li>
+            <li><a href="">Amenity Lobbies</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <h2 class="header">Gallery</h2>
+      <div class="img-gallery">
+        <img src="img/img1.jpg" alt="" />
+        <img src="img/img2.webp" alt="" />
+        <img src="img/img3.png" alt="" />
+        <img src="img/img1.jpg" alt="" />
+        <img src="img/img2.webp" alt="" />
+        <img src="img/img3.png" alt="" />
+        <img src="img/img1.jpg" alt="" />
+        <img src="img/img2.webp" alt="" />
+        <img src="img/img3.png" alt="" />
+      </div>
+    </section>
+    <section class="container">
+      <div class="contact-container">
+        <div class="contact-form">
+          <h3 class="contact-header">Contact Us</h3>
+          <form action="">
+            <label for="">Email</label>
+            <input type="text" />
+            <label for="">Subject</label>
+            <input type="text" />
+            <label for="">Message</label>
+            <textarea name="" id="" rows="10"></textarea>
+            <button>Submit</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3 class="contact-header">Contact Information</h3>
+          <ul class="contact-list">
+            <li><span>Email:</span> info@thesmdc.ph</li>
+            <li><span>Mobile No.:</span> +63 222 222 2222</li>
+            <li><span>Viber:</span> +63 222 222 2222</li>
+            <li><span>WhatsApp:</span> +63 222 222 2222</li>
+            <li><span>Facebook:</span> Homes by SMDC</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer-column">
+          <h3 class="footer-header">About SMDC</h3>
+          <p class="footer-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+            odio maiores quo nam deserunt ipsam fugit porro quos vero dolores,
+            quas eaque quibusdam illo, cum repellendus illum totam possimus
+            ullam.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-header">Disclaimer</h3>
+          <p class="footer-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla,
+            libero mollitia? Numquam accusamus veniam itaque voluptates
+            recusandae molestias nemo harum deleniti id explicabo? Totam dolorum
+            quae magnam ducimus vero vitae.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright">
+      <p>2024 Copyright SMDC</p>
+    </div>
+  </body>
 </html>
